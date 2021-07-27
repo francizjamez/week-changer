@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body class="grid place-items-center h-screen bg-purple-400">
+    <div class="flex gap-8 bg-white rounded shadow p-4 items-center">
+      <button
+        id="prev"
+        class="leading-none rounded-full p-4 bg-gray-200 text-8xl"
+      >
+        <div class="rounded-full h-2 w-2 bg-black hover:bg-red-700"></div>
+      </button>
+      <ul
+        id="week"
+        class="flex gap-2 w-96 justify-between h-10 items-center"
+      ></ul>
+      <button
+        id="next"
+        class="
+          leading-none
+          p-4
+          bg-gray-200
+          rounded-full
+          text-8xl
+          hover:text-red-700
+        "
+      >
+        <div class="rounded-full h-2 w-2 bg-black" id="next-dot"></div>
+      </button>
+    </div>
+  </body>
+</html>
